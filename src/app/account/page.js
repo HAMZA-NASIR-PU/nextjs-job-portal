@@ -5,8 +5,8 @@ export default function Account() {
 
     const userProfileInfo = null;
 
-    if (!userProfileInfo) { 
-        redirect('profile');   
+    if (!userProfileInfo) {
+        redirect('products?search=product1');
     }
 
     return <h1>Accounts Page</h1>
